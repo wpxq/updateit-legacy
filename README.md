@@ -46,10 +46,6 @@ Updates all packages from All Package Managers
 | Composer |
 | Gems |
 
-### `Cargo` (IMPORTANT!)
-- For Cargo updates, you must have `cargo-update` installed:
-##### cargo install cargo-update
-
 ### `--latest`
 Shows the latest update
 
