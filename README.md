@@ -8,20 +8,19 @@ CLI tool to update all package managers and check the latest update date
 
 ---
 
-## Functions
-
-### `--update`  
-Updates all packages from all package managers
-
 ### System Package Managers
 | Package Managers |
 | :--- |
-| Pacman, Yay, Paru, Xbps, DNF, PKG, APT, Portage, Zypper, Nix, Apk |
+| Pacman, Yay, Paru, Xbps, DNF, PKG, APT, Portage, Zypper, Nix, Apk, Winget, Scoop, Choco |
 
 ### External Package Managers
 | Package Managers |
 | :--- |
 | Brew, Flatpak, Snap, PIP, NPM, PNPM, Cargo, Conda, Yarn, Bun, Rustup, Deno, Composer, Gems |
+
+## Functions
+### `--update`  
+Updates all packages from all package managers
 
 ### `--latest`
 Shows the latest update
@@ -51,6 +50,6 @@ cd updateit
 ## Troubleshooting (PATH issues)
 if the command is not found, add this to your `.bashrc` (or `.zshrc`):
 ```bash
-export PATH="$HOME/.local/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
 ```
 ### Then save and run: ```source .bashrc``` (or `source .zshrc`)
