@@ -65,7 +65,7 @@ def show_log():
 
 def get_latest_ver():
     try:
-        url = "https://raw.githubusercontent.com/wpxq/updateit/refs/heads/main/updateit.py"
+        url = "https://raw.githubusercontent.com/wpxq/updateit/refs/heads/old_updateit/updateit.py"
         resp = r.get(url, timeout=5)
         if resp.status_code == 200:
             match = re.search(r'__version__\s*=\s*["\']([^"\']+)["\']', resp.text)
@@ -76,7 +76,7 @@ def get_latest_ver():
     return __version__
 
 def refresh():
-    url = "https://raw.githubusercontent.com/wpxq/updateit/refs/heads/main/updateit.py"
+    url = "https://raw.githubusercontent.com/wpxq/updateit/refs/heads/old_updateit/updateit.py"
     resp = r.get(url)
     if resp.status_code == 200:
         with open("updateit.py", "wb") as f:
