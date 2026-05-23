@@ -1,6 +1,6 @@
 # Package Manager Updater
 
-![updateit](https://github.com/wpxq/updateit/blob/main/updateit.png)
+![updateit](https://github.com/wpxq/updateit/blob/old_updateit/updateit.png)
 
 ---
 
