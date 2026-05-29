@@ -11,7 +11,7 @@ CLI tool to update all package managers and check the latest update date
 ### System Package Managers
 | Package Managers |
 | :--- |
-| Pacman, Yay, Paru, Xbps, DNF, PKG, APT, Portage, Zypper, Nix, Apk, Winget, Scoop, Choco |
+| Pacman, Yay, Paru, Xbps, DNF, PKG, APT, Portage, Zypper, Nix, Apk |
 
 ### External Package Managers
 | Package Managers |
